@@ -11,6 +11,7 @@
         <module name="quiz-service" />
         <module name="question-service" />
         <module name="service-registry" />
+        <module name="security-service" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +20,7 @@
       <module name="api-gateway" options="-parameters" />
       <module name="question-service" options="-parameters" />
       <module name="quiz-service" options="-parameters" />
+      <module name="security-service" options="-parameters" />
       <module name="service-registry" options="-parameters" />
     </option>
   </component>

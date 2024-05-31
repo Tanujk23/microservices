@@ -1,14 +1,13 @@
-package com.tanuj.question_service;
-
+package com.tanuj.securityservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QuestionServiceApplication {
+public class SecurityServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QuestionServiceApplication.class, args);
+		SpringApplication.run(SecurityServiceApplication.class, args);
 	}
 
 }
