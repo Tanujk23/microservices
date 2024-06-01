@@ -12,11 +12,11 @@ import java.util.Map;
 @Component
 public class JwtTokenProvider {
 
-    private final byte[] jwtSecret = Hex.decodeHex("bae6ab735ff4f49d02b35d10681a469faab7c1cc8dbc63a2e0895be1b286f6de");
+    private String jwtSecret="bae6ab735ff4f49d02b35d10681a469faab7c1cc8dbc63a2e0895be1b286f6de";
+    //private final byte[] jwtSecret = Hex.encode("bae6ab735ff4f49d02b35d10681a469faab7c1cc8dbc63a2e0895be1b286f6de");
     private final int jwtExpirationMs = 86400000;
 
-    public JwtTokenProvider() throws DecoderException {
-    }
+
 
     public String generateToken(String username, String role) {
         Map<String, Object> claims = new HashMap<>();
